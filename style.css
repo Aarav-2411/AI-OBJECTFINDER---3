@@ -1,0 +1,54 @@
+body {
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.btn-dark {
+    width: 95%;
+    margin: 10px;
+    animation: animate 1s infinite;
+}
+
+@keyframes animate {
+    from{box-shadow: 3px 5px 10px 3px white;}
+    to{box-shadow: 3px 5px 10px 3px cyan;}
+}
+
+.w3-input {
+    width: 500px;
+}
+
+#start {
+  border-radius: 100px;
+  box-shadow: 3px 5px 10px rgb(79, 83, 193);
+  color: aliceblue;
+  transition: all 250ms;
+  font-size: 15px;
+  width: 300px;
+  height: fit-content;
+  padding: 5px;
+}
+
+#start:hover {
+  box-shadow: 3px 5px 10px darkblue;
+  transform: scale(1.05) rotate(-1deg);
+  font-size: 20px;
+  font-weight: 600;
+} 
+
+#status {
+    display: inline-block;
+}
+
+canvas {
+    border: 2px double black;
+    animation: shadow 1s infinite;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+@keyframes shadow {
+    from{box-shadow: 1px 1px 15px white;}
+    to{box-shadow: 1px 1px 15px pink;}
+}
